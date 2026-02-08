@@ -1,5 +1,5 @@
 {% set name = "pychop" %}
-{% set version = "0.3.8" %}
+{% set version = "0.3.9" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pychop/pychop-{{ version }}.tar.gz
-  sha256: 8a97a818a04fc37d9f591eae7afc79766f53d5a64451450649b3baad67ee8011
+  sha256: 03e0f3a67db03d60b2efaa6e9fcaa0980b1bffcf190db71b20eb23d3c9660006
 
 build:
   number: 0
