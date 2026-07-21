@@ -20,11 +20,13 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-    - numpy >=1.17.2
+    - numpy >=1.17.3
   run:
     - python >={{ python_min }}
-    - numpy >=1.17.2
+    - numpy >=1.17.3
     - pandas
+    - scipy >=1.0
+    - scikit-learn >=0.20
     - dask
     - pytorch >=1.12
     - jax >=0.4.8
@@ -32,7 +34,6 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
-    - scipy
     - pytest
     - pip
   imports:
